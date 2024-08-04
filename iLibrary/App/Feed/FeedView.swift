@@ -14,6 +14,8 @@ struct FeedView: View {
     
     @State private var cloudKitManager = CloudKitManager()
     
+    @State private var publicArticles: [PublicArticle] = []
+    
     var body: some View {
         NavigationStack {
             VStack {
@@ -31,7 +33,7 @@ struct FeedView: View {
                 .padding()
                 
                 List {
-                    ForEach(cloudKitManager.publicArticles, id: \.self) { article in
+                    ForEach(publicArticles, id: \.self) { article in
                         NavigationLink(value: article) {
                             VStack(alignment: .leading) {
                                 Text(article.title)
@@ -82,7 +84,11 @@ struct FeedView: View {
             }
         }
         .onAppear {
-            cloudKitManager.fetchArticles()
+            Task {
+                let data = try await cloudKitManager.fetchArticles()
+                
+                publicArticles = data
+            }
         }
     }
 }
