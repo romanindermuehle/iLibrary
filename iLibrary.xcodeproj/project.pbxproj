@@ -29,7 +29,6 @@
 		CBC9A9112C1DC85B00FA5073 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9A9102C1DC85B00FA5073 /* SettingsView.swift */; };
 		CBC9A9152C1DD8A700FA5073 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9A9142C1DD8A700FA5073 /* Image.swift */; };
 		CBC9A9172C1DDA8500FA5073 /* UserModifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9A9162C1DDA8500FA5073 /* UserModifyView.swift */; };
-		CBC9A9192C1DE84B00FA5073 /* PhotoMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9A9182C1DE84B00FA5073 /* PhotoMenuView.swift */; };
 		CBC9A91C2C1E36E100FA5073 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9A91B2C1E36E100FA5073 /* CloudKitManager.swift */; };
 		CBC9A91E2C1E372900FA5073 /* PublicArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC9A91D2C1E372900FA5073 /* PublicArticle.swift */; };
 /* End PBXBuildFile section */
@@ -79,7 +78,6 @@
 		CBC9A9102C1DC85B00FA5073 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CBC9A9142C1DD8A700FA5073 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		CBC9A9162C1DDA8500FA5073 /* UserModifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModifyView.swift; sourceTree = "<group>"; };
-		CBC9A9182C1DE84B00FA5073 /* PhotoMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMenuView.swift; sourceTree = "<group>"; };
 		CBC9A91B2C1E36E100FA5073 /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
 		CBC9A91D2C1E372900FA5073 /* PublicArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicArticle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -260,7 +258,6 @@
 			children = (
 				CBC9A9102C1DC85B00FA5073 /* SettingsView.swift */,
 				CBC9A9162C1DDA8500FA5073 /* UserModifyView.swift */,
-				CBC9A9182C1DE84B00FA5073 /* PhotoMenuView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -422,7 +419,6 @@
 				CB54C4A22C1DA3CC003834AE /* FeedView.swift in Sources */,
 				CBC9A9172C1DDA8500FA5073 /* UserModifyView.swift in Sources */,
 				CB54C4792C1DA29B003834AE /* ContentView.swift in Sources */,
-				CBC9A9192C1DE84B00FA5073 /* PhotoMenuView.swift in Sources */,
 				CB54C4772C1DA29B003834AE /* iLibraryApp.swift in Sources */,
 				CB54C4C22C1DC2A7003834AE /* CreateUserView.swift in Sources */,
 				CBC9A9152C1DD8A700FA5073 /* Image.swift in Sources */,
